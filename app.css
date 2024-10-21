@@ -1,0 +1,174 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(mo-zFZeklnMxOw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.open{
+    font-size: 35px;
+    font-weight: 900;
+    font-family: "poppins";
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+
+}
+.submit{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'poppins';
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 30px;
+    padding: 15px;
+    width: 325px;
+    background-color: #99582a;
+
+}
+
+:hover.submit{
+    background-color: #bb9457;
+    color: #03071e;
+    transition: ease-in-out;
+    transition-duration: 1s;
+    
+
+    
+
+}
+
+.pcm{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 50px 60px;
+    backdrop-filter: blur(10px);
+    
+}
+
+.user{
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    width: 300px;
+    margin-top: 50px;
+}
+.name{
+    box-sizing: border-box;
+    background: none;
+    border: none;
+    color: black;
+    padding: 5px;
+    outline: none;
+
+
+}
+#pass{
+    box-sizing: border-box;
+    background: none;
+    border: none;
+    color: black;
+    padding: 5px;
+    outline: none;
+
+}
+.pass{
+    
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    color: 
+}
+::placeholder{
+    color: black;
+    opacity: 2px;
+}
+.bx{
+    margin-top: 7px;
+    margin-left: 100px;
+}
+
+.chu{
+    margin-left: 35px;
+    color: #03071e;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'poppins';
+    font-size: 15px;
+
+}
+.pex{
+    font-family: 'poppins';
+    font-weight: bolder;
+}
+footer{
+    margin-top: 800px;
+    color: white;
+}
+/* made by aagamkjain */
